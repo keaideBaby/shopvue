@@ -1,4 +1,4 @@
-# shopp
+# shopvue
 
 ## Project setup
 ```
