@@ -1,5 +1,5 @@
 # shopvue
-
+仿蘑菇街项目
 ## Project setup
 ```
 npm install
