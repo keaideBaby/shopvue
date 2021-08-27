@@ -8,12 +8,16 @@ const My = () =>
     import ('views/My/My.vue')
 const Center = () =>
     import ('views/center/Center.vue')
+const Detail = () =>
+    import ('views/details/Detail.vue')
 
 const routes = [
     { path: '/', redirect: '/home' },
     { path: '/home', component: Home },
     { path: '/cart', component: Cart },
-    { path: '/my', component: My }, { path: '/center', component: Center }
+    { path: '/my', component: My },
+    { path: '/category', component: Center },
+    { path: '/detail/:id', component: Detail }
 ]
 const router = createRouter({
     history: createWebHistory(process.env.BASE_URL),
